@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <PackageId>Altirs.Sdk</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Altirs</Authors>
+    <Description>C# SDK for Altirs — Guardrails-as-a-Service API</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/altirs/sdk-csharp</RepositoryUrl>
+    <PackageTags>ai;guardrails;safety;pii;content-moderation</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
